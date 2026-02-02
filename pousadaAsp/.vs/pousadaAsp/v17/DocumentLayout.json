@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\obsoletos\\pousada\\pousadaAsp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A0F7E004-8F3F-497F-A0F5-7EB515C1BD76}|pousadaAsp\\pousadaAsp.csproj|d:\\obsoletos\\pousada\\pousadaasp\\pousadaasp\\models\\clientepf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0F7E004-8F3F-497F-A0F5-7EB515C1BD76}|pousadaAsp\\pousadaAsp.csproj|solutionrelative:pousadaasp\\models\\clientepf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0F7E004-8F3F-497F-A0F5-7EB515C1BD76}|pousadaAsp\\pousadaAsp.csproj|d:\\obsoletos\\pousada\\pousadaasp\\pousadaasp\\controllers\\clientepfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0F7E004-8F3F-497F-A0F5-7EB515C1BD76}|pousadaAsp\\pousadaAsp.csproj|solutionrelative:pousadaasp\\controllers\\clientepfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0F7E004-8F3F-497F-A0F5-7EB515C1BD76}|pousadaAsp\\pousadaAsp.csproj|d:\\obsoletos\\pousada\\pousadaasp\\pousadaasp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0F7E004-8F3F-497F-A0F5-7EB515C1BD76}|pousadaAsp\\pousadaAsp.csproj|solutionrelative:pousadaasp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0F7E004-8F3F-497F-A0F5-7EB515C1BD76}|pousadaAsp\\pousadaAsp.csproj|d:\\obsoletos\\pousada\\pousadaasp\\pousadaasp\\data\\configurations\\clientepfconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0F7E004-8F3F-497F-A0F5-7EB515C1BD76}|pousadaAsp\\pousadaAsp.csproj|solutionrelative:pousadaasp\\data\\configurations\\clientepfconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 213,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientePF.cs",
+              "DocumentMoniker": "D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\Models\\ClientePF.cs",
+              "RelativeDocumentMoniker": "pousadaAsp\\Models\\ClientePF.cs",
+              "ToolTip": "D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\Models\\ClientePF.cs",
+              "RelativeToolTip": "pousadaAsp\\Models\\ClientePF.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T22:54:24.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientePFConfiguration.cs",
+              "DocumentMoniker": "D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\Data\\Configurations\\ClientePFConfiguration.cs",
+              "RelativeDocumentMoniker": "pousadaAsp\\Data\\Configurations\\ClientePFConfiguration.cs",
+              "ToolTip": "D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\Data\\Configurations\\ClientePFConfiguration.cs",
+              "RelativeToolTip": "pousadaAsp\\Data\\Configurations\\ClientePFConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T23:46:38.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "pousadaAsp\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "pousadaAsp\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T18:44:41.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientePFController.cs",
+              "DocumentMoniker": "D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\Controllers\\ClientePFController.cs",
+              "RelativeDocumentMoniker": "pousadaAsp\\Controllers\\ClientePFController.cs",
+              "ToolTip": "D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\Controllers\\ClientePFController.cs",
+              "RelativeToolTip": "pousadaAsp\\Controllers\\ClientePFController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAewF8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T21:36:03.4Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 187,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
