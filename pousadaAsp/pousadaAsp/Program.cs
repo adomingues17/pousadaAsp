@@ -1,11 +1,17 @@
-//https://copilot.microsoft.com/chats/G7KvGCWfMXnPQaxNV7XEW
-
-using pousadaAsp.Data;
+using AutoMapper;
 //using ecomAuto.Seeders; // <- namespace do seeder
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using pousadaAsp.Data;
+using pousadaAsp.Filters;
+using pousadaAsp.Mappings;
+using pousadaAsp.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Registro do AutoMapper
+builder.Services.AddAutoMapper(typeof(ClientePFProfile).Assembly);
 
 // ----------------------
 // Configuração de serviços
@@ -33,6 +39,10 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 .AddEntityFrameworkStores<ApplicationDbContext>();
 
 builder.Services.AddControllersWithViews();
+
+// Registro do filtro customizado
+builder.Services.AddScoped<ClientePFService>();
+builder.Services.AddScoped<ClienteOwnerFilter>();
 
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();

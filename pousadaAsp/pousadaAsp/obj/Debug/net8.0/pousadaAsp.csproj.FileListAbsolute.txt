@@ -261,3 +261,8 @@ D:\obsoletos\pousada\pousadaAsp\pousadaAsp\bin\Debug\net8.0\ru\Microsoft.CodeAna
 D:\obsoletos\pousada\pousadaAsp\pousadaAsp\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 D:\obsoletos\pousada\pousadaAsp\pousadaAsp\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 D:\obsoletos\pousada\pousadaAsp\pousadaAsp\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\obsoletos\pousada\pousadaAsp\pousadaAsp\obj\Debug\net8.0\pousadaAsp.sourcelink.json
+D:\obsoletos\pousada\pousadaAsp\pousadaAsp\bin\Debug\net8.0\AutoMapper.dll
+D:\obsoletos\pousada\pousadaAsp\pousadaAsp\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\obsoletos\pousada\pousadaAsp\pousadaAsp\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\obsoletos\pousada\pousadaAsp\pousadaAsp\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
