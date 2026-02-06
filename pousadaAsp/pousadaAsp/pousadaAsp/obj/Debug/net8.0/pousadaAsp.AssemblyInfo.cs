@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pousadaAsp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9101b3c52785e631d51b885b607ecf119d4d0582")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acd264142634e23fb3fa96af15fd3ecd9b3cade3")]
 [assembly: System.Reflection.AssemblyProductAttribute("pousadaAsp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pousadaAsp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

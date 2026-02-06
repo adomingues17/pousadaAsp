@@ -12,8 +12,8 @@ using pousadaAsp.Data;
 namespace pousadaAsp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260205062421_dbPousadaV1")]
-    partial class dbPousadaV1
+    [Migration("20260206042758_BdPousadaAspV3")]
+    partial class BdPousadaAspV3
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -239,22 +239,15 @@ namespace pousadaAsp.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Discriminator")
-                        .IsRequired()
-                        .HasMaxLength(8)
-                        .HasColumnType("nvarchar(8)");
-
                     b.Property<string>("Endereco")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Clientes");
+                    b.ToTable("Clientes", (string)null);
 
-                    b.HasDiscriminator().HasValue("Cliente");
-
-                    b.UseTphMappingStrategy();
+                    b.UseTptMappingStrategy();
                 });
 
             modelBuilder.Entity("pousadaAsp.Models.Quarto", b =>
@@ -333,7 +326,7 @@ namespace pousadaAsp.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasDiscriminator().HasValue("PF");
+                    b.ToTable("PFs", (string)null);
                 });
 
             modelBuilder.Entity("pousadaAsp.Models.PJ", b =>
@@ -348,7 +341,7 @@ namespace pousadaAsp.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasDiscriminator().HasValue("PJ");
+                    b.ToTable("PJs", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -425,6 +418,24 @@ namespace pousadaAsp.Migrations
                     b.Navigation("IdIdentity");
 
                     b.Navigation("IdQuarto");
+                });
+
+            modelBuilder.Entity("pousadaAsp.Models.PF", b =>
+                {
+                    b.HasOne("pousadaAsp.Models.Cliente", null)
+                        .WithOne()
+                        .HasForeignKey("pousadaAsp.Models.PF", "Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("pousadaAsp.Models.PJ", b =>
+                {
+                    b.HasOne("pousadaAsp.Models.Cliente", null)
+                        .WithOne()
+                        .HasForeignKey("pousadaAsp.Models.PJ", "Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

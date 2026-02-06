@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace pousadaAsp.Migrations
 {
     /// <inheritdoc />
-    public partial class dbPousadaV1 : Migration
+    public partial class BdPousadaAspV1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -57,12 +57,7 @@ namespace pousadaAsp.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Endereco = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CEP = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Discriminator = table.Column<string>(type: "nvarchar(8)", maxLength: 8, nullable: false),
-                    NomePF = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    CPF = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    NomePJ = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    CNPJ = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    CEP = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -190,6 +185,44 @@ namespace pousadaAsp.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "PFs",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false),
+                    NomePF = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CPF = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_PFs", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_PFs_Clientes_Id",
+                        column: x => x.Id,
+                        principalTable: "Clientes",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "PJs",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false),
+                    NomePJ = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CNPJ = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_PJs", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_PJs_Clientes_Id",
+                        column: x => x.Id,
+                        principalTable: "Clientes",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Reservas",
                 columns: table => new
                 {
@@ -298,6 +331,12 @@ namespace pousadaAsp.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUserTokens");
+
+            migrationBuilder.DropTable(
+                name: "PFs");
+
+            migrationBuilder.DropTable(
+                name: "PJs");
 
             migrationBuilder.DropTable(
                 name: "Reservas");

@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\pousadaAsp\\Migrations\\20260205062421_dbPousadaV1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pousadaAsp\\Migrations\\20260205062421_dbPousadaV1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{544DE004-2936-4DD9-90A5-74B3E9D5B247}|pousadaAsp\\pousadaAsp.csproj|d:\\obsoletos\\pousada\\pousadaasp\\pousadaasp\\pousadaasp\\models\\pf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{544DE004-2936-4DD9-90A5-74B3E9D5B247}|pousadaAsp\\pousadaAsp.csproj|solutionrelative:pousadaasp\\models\\pf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{544DE004-2936-4DD9-90A5-74B3E9D5B247}|pousadaAsp\\pousadaAsp.csproj|d:\\obsoletos\\pousada\\pousadaasp\\pousadaasp\\pousadaasp\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{544DE004-2936-4DD9-90A5-74B3E9D5B247}|pousadaAsp\\pousadaAsp.csproj|solutionrelative:pousadaasp\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{544DE004-2936-4DD9-90A5-74B3E9D5B247}|pousadaAsp\\pousadaAsp.csproj|d:\\obsoletos\\pousada\\pousadaasp\\pousadaasp\\pousadaasp\\viewmodels\\clienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{544DE004-2936-4DD9-90A5-74B3E9D5B247}|pousadaAsp\\pousadaAsp.csproj|solutionrelative:pousadaasp\\viewmodels\\clienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{544DE004-2936-4DD9-90A5-74B3E9D5B247}|pousadaAsp\\pousadaAsp.csproj|d:\\obsoletos\\pousada\\pousadaasp\\pousadaasp\\pousadaasp\\repositories\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{544DE004-2936-4DD9-90A5-74B3E9D5B247}|pousadaAsp\\pousadaAsp.csproj|solutionrelative:pousadaasp\\repositories\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{544DE004-2936-4DD9-90A5-74B3E9D5B247}|pousadaAsp\\pousadaAsp.csproj|d:\\obsoletos\\pousada\\pousadaasp\\pousadaasp\\pousadaasp\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{544DE004-2936-4DD9-90A5-74B3E9D5B247}|pousadaAsp\\pousadaAsp.csproj|solutionrelative:pousadaasp\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{544DE004-2936-4DD9-90A5-74B3E9D5B247}|pousadaAsp\\pousadaAsp.csproj|d:\\obsoletos\\pousada\\pousadaasp\\pousadaasp\\pousadaasp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{544DE004-2936-4DD9-90A5-74B3E9D5B247}|pousadaAsp\\pousadaAsp.csproj|solutionrelative:pousadaasp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{544DE004-2936-4DD9-90A5-74B3E9D5B247}|pousadaAsp\\pousadaAsp.csproj|d:\\obsoletos\\pousada\\pousadaasp\\pousadaasp\\pousadaasp\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{544DE004-2936-4DD9-90A5-74B3E9D5B247}|pousadaAsp\\pousadaAsp.csproj|solutionrelative:pousadaasp\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,14 +55,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20260205062421_dbPousadaV1.cs",
-              "DocumentMoniker": "D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\pousadaAsp\\Migrations\\20260205062421_dbPousadaV1.cs",
-              "RelativeDocumentMoniker": "pousadaAsp\\Migrations\\20260205062421_dbPousadaV1.cs",
-              "ToolTip": "D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\pousadaAsp\\Migrations\\20260205062421_dbPousadaV1.cs",
-              "RelativeToolTip": "pousadaAsp\\Migrations\\20260205062421_dbPousadaV1.cs",
+              "Title": "PF.cs",
+              "DocumentMoniker": "D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\pousadaAsp\\Models\\PF.cs",
+              "RelativeDocumentMoniker": "pousadaAsp\\Models\\PF.cs",
+              "ToolTip": "D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\pousadaAsp\\Models\\PF.cs",
+              "RelativeToolTip": "pousadaAsp\\Models\\PF.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T06:24:21.946Z",
+              "WhenOpened": "2026-02-06T20:28:40.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClienteViewModel.cs",
+              "DocumentMoniker": "D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\pousadaAsp\\ViewModels\\ClienteViewModel.cs",
+              "RelativeDocumentMoniker": "pousadaAsp\\ViewModels\\ClienteViewModel.cs",
+              "ToolTip": "D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\pousadaAsp\\ViewModels\\ClienteViewModel.cs",
+              "RelativeToolTip": "pousadaAsp\\ViewModels\\ClienteViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T19:49:12.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\pousadaAsp\\Services\\ClienteService.cs",
+              "RelativeDocumentMoniker": "pousadaAsp\\Services\\ClienteService.cs",
+              "ToolTip": "D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\pousadaAsp\\Services\\ClienteService.cs",
+              "RelativeToolTip": "pousadaAsp\\Services\\ClienteService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T17:52:32.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\pousadaAsp\\Repositories\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "pousadaAsp\\Repositories\\ClienteRepository.cs",
+              "ToolTip": "D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\pousadaAsp\\Repositories\\ClienteRepository.cs",
+              "RelativeToolTip": "pousadaAsp\\Repositories\\ClienteRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T17:52:30.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\pousadaAsp\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "pousadaAsp\\Models\\Cliente.cs",
+              "ToolTip": "D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\pousadaAsp\\Models\\Cliente.cs",
+              "RelativeToolTip": "pousadaAsp\\Models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T17:17:25.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\pousadaAsp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "pousadaAsp\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\pousadaAsp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "pousadaAsp\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T17:54:57.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\pousadaAsp\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "pousadaAsp\\Controllers\\ClientesController.cs",
+              "ToolTip": "D:\\obsoletos\\pousada\\pousadaAsp\\pousadaAsp\\pousadaAsp\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "pousadaAsp\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T17:52:22.139Z",
               "EditorCaption": ""
             }
           ]

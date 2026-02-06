@@ -4,9 +4,10 @@ namespace pousadaAsp.Models;
 
 public class PF : Cliente
 {
+    /*
     [Key]
     public int Id { get; set; }
-
+    */
     [Required(ErrorMessage = "Nome é obrigatório.")]
     [Display(Name = "Nome do Cliente")]
     public string NomePF { get; set; }

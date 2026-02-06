@@ -1,38 +1,87 @@
-﻿@model pousadaAsp.Models.Cliente
+﻿@model pousadaAsp.ViewModels.ClienteViewModel
 
-@{
-    ViewData["Title"] = "Create";
-}
+<h2>Novo Cliente</h2>
 
-<h1>Create</h1>
+<!-- Mostra mensagens de validação -->
+@Html.ValidationSummary(true, "", new { @class = "text-danger" })
 
-<h4>Cliente</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Endereco" class="control-label"></label>
-                <input asp-for="Endereco" class="form-control" />
-                <span asp-validation-for="Endereco" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="CEP" class="control-label"></label>
-                <input asp-for="CEP" class="form-control" />
-                <span asp-validation-for="CEP" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="TipoCliente"></label>
+        <select asp-for="TipoCliente" class="form-control">
+            <option value="">-- Selecione --</option>
+            <option value="PF">Pessoa Física</option>
+            <option value="PJ">Pessoa Jurídica</option>
+        </select>
+        <span asp-validation-for="TipoCliente" class="text-danger"></span>
     </div>
-</div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+    <div class="form-group">
+        <label asp-for="Endereco"></label>
+        <input asp-for="Endereco" class="form-control" />
+        <span asp-validation-for="Endereco" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CEP"></label>
+        <input asp-for="CEP" class="form-control" />
+        <span asp-validation-for="CEP" class="text-danger"></span>
+    </div>
+
+    <!-- Campos PF -->
+    <div id="pfFields">
+        <div class="form-group">
+            <label asp-for="NomePF"></label>
+            <input asp-for="NomePF" class="form-control" />
+            <span asp-validation-for="NomePF" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="CPF"></label>
+            <input asp-for="CPF" class="form-control" />
+            <span asp-validation-for="CPF" class="text-danger"></span>
+        </div>
+    </div>
+
+    <!-- Campos PJ -->
+    <div id="pjFields">
+        <div class="form-group">
+            <label asp-for="NomePJ"></label>
+            <input asp-for="NomePJ" class="form-control" />
+            <span asp-validation-for="NomePJ" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="CNPJ"></label>
+            <input asp-for="CNPJ" class="form-control" />
+            <span asp-validation-for="CNPJ" class="text-danger"></span>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        const tipoSelect = document.querySelector("[name='TipoCliente']");
+        const pfFields = document.getElementById("pfFields");
+        const pjFields = document.getElementById("pjFields");
+
+        function toggleFields() {
+            if (tipoSelect.value === "PF") {
+                pfFields.style.display = "block";
+                pjFields.style.display = "none";
+            } else if (tipoSelect.value === "PJ") {
+                pfFields.style.display = "none";
+                pjFields.style.display = "block";
+            } else {
+                pfFields.style.display = "none";
+                pjFields.style.display = "none";
+            }
+        }
+
+        tipoSelect.addEventListener("change", toggleFields);
+        toggleFields(); // inicializa ao carregar
+    </script>
 }

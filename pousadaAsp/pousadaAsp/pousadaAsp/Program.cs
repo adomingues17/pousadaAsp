@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using pousadaAsp.Data;
+using pousadaAsp.Services;
+using pousadaAsp.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +15,11 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+
+// Aqui é o ponto ideal para registrar seus serviços e repositórios
+builder.Services.AddScoped<IClienteRepository, ClienteRepository>(); 
+builder.Services.AddScoped<ClienteService>();
+
 
 var app = builder.Build();
 

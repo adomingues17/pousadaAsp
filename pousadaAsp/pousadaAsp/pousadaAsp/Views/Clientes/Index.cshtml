@@ -1,41 +1,45 @@
 ﻿@model IEnumerable<pousadaAsp.Models.Cliente>
 
-@{
-    ViewData["Title"] = "Index";
-}
+<h2>Lista de Clientes</h2>
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
+<table class="table table-striped">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Endereco)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CEP)
-            </th>
-            <th></th>
+            <th>Id</th>
+            <th>Endereço</th>
+            <th>CEP</th>
+            <th>Nome</th>
+            <th>Documento</th>
+            <th>Ações</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Endereco)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CEP)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var cliente in Model)
+        {
+            <tr>
+                <td>@cliente.Id</td>
+                <td>@cliente.Endereco</td>
+                <td>@cliente.CEP</td>
+
+                @if (cliente is pousadaAsp.Models.PF pf)
+                {
+                    <td>@pf.NomePF</td>
+                    <td>@pf.CPF</td>
+                }
+                else if (cliente is pousadaAsp.Models.PJ pj)
+                {
+                    <td>@pj.NomePJ</td>
+                    <td>@pj.CNPJ</td>
+                }
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@cliente.Id" class="btn btn-sm btn-warning">Editar</a>
+                    <a asp-action="Details" asp-route-id="@cliente.Id" class="btn btn-sm btn-info">Detalhes</a>
+                    <a asp-action="Delete" asp-route-id="@cliente.Id" class="btn btn-sm btn-danger">Excluir</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
+
+<a asp-action="Create" class="btn btn-success">Novo Cliente</a>
